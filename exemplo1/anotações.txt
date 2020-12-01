@@ -1,0 +1,30 @@
+linha -
+coluna |
+
+Interção entre linha e coluna deve-se usar o CSS GRID
+
+Interação entre linha  linha deve-se usar o FLEXBOX
+
+
+
+display: none;
+    * Esconde o elemento
+
+
+display: block;
+    * Vem por padrão (div, section, p, h1, h2, ul, li, article)
+    * Ocupa 100% da largura do elemento pai
+    * Ocupa sempre a própria linha e é posicionado abaixo do elemento anterior
+    * A altura é definida de acordo com o conteúdo interno
+    * É possível definir Width e Heigth
+    * Você pode definir valores de margin-top emargin-bottom
+
+
+display: inline;
+    * Vem por padrão (a, span, b, i, em)
+    * Ocupa a largura total do seu conteúdo apenas
+    * Um elemento inline após outro elemento inline ocupam a mesma linha
+    * Não é possível definir Width e Heigth
+    * Ao aplicar o float, automaticamente eles assumem características de display block
+    * Se aplicado dentro de um texto, irá seguir o fluxo do conteúdo 
+
